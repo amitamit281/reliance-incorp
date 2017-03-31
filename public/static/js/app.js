@@ -15,9 +15,33 @@ zoombeiApp.config(function($routeProvider) {
 	}).when('/journey/mission', {
 	    templateUrl: 'views/journey/mission.html',
 	    controller: 'mainCtrl'
+	}).when('/solution/analytic/collect', {
+			templateUrl: 'views/solution/analytic/collect.html',
+			controller: 'mainCtrl'
+	}).when('/solution/analytic/manage', {
+			templateUrl: 'views/solution/analytic/manage.html',
+			controller: 'mainCtrl'
+	}).when('/solution/analytic/analyze', {
+			templateUrl: 'views/solution/analytic/analyze.html',
+			controller: 'mainCtrl'	
+	}).when('/solution/analytic/act', {
+			templateUrl: 'views/solution/analytic/act.html',
+			controller: 'mainCtrl'	
+	}).when('/solution/capability/advanced-analytic', {
+			templateUrl: 'views/solution/capability/advanced-analytic.html',
+			controller: 'mainCtrl'
+	}).when('/solution/capability/iot', {
+			templateUrl: 'views/solution/capability/iot.html',
+			controller: 'mainCtrl'
+	}).when('/solution/capability/social-media', {
+			templateUrl: 'views/solution/capability/social-media.html',
+			controller: 'mainCtrl'
+	}).when('/solution/capability/bigdata', {
+			templateUrl: 'views/solution/capability/bigdata.html',
+			controller: 'mainCtrl'		
 	}).when('/solution/visual-analytic', {
-	    templateUrl: 'views/solution/visual-analytic.html',
-	    controller: 'mainCtrl'
+			templateUrl: 'views/solution/visual-analytic.html',
+			controller: 'mainCtrl'
 	}).when('/solution/employee-engagement', {
 	    templateUrl: 'views/solution/employee-engagement.html',
 	    controller: 'mainCtrl'
