@@ -248,3 +248,11 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+
+.Page-Content {
+    margin-left:50px; 
+    margin-top:30px;
+    margin-right:50px;
+}
+    
